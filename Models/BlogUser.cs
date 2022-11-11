@@ -19,11 +19,11 @@ namespace TheBlogProject.Models
 
 
         public byte[]? ImageData { get; set; }
-        public string ContentType { get; set; }
+        public string? ContentType { get; set; }
 
 
-        public string FacebookUrl { get; set; }
-        public string TwitterUrl { get; set; }
+        public string? FacebookUrl { get; set; }
+        public string? TwitterUrl { get; set; }
 
         [NotMapped]
         public string FullName
