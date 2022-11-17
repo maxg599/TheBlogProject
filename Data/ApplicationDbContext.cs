@@ -15,5 +15,6 @@ namespace TheBlogProject.Data
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comment> Comment { get; set; }
         public DbSet<Tag> Tags { get; set; }
+        
     }
 }
